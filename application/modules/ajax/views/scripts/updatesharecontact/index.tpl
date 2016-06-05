@@ -1,0 +1,3 @@
+{foreach from=$sharearray item=curr}
+<span class="sharemail">{$curr.mail}</span> {if $admin eq 1}<label for="modify_{$curr.shareid}">{$modify}</label> <input name="modifyContactShare[]" id="modify_{$curr.shareid}" type="checkbox" value="{$curr.modify}" class="crirHiddenJS" {if $curr.modify eq "true"}checked='checked'{/if}/>{/if} <button id='delete_{$curr.shareid}' class="submitBtn deletesharecontact"><span>{$delete}</span></button><br/>
+{/foreach}

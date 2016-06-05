@@ -1,0 +1,87 @@
+#errormsg
+{
+	background-repeat:no-repeat;
+	font-weight:bold;
+	margin-top:10px;
+	min-height:25px;
+	padding-left:30px;
+	padding-top:8px;
+	background-image:url('/image/error.png');
+}
+
+#login label 
+{
+	min-width:100px;
+	display:block;
+	float:left
+}
+
+#settings .block, #login .block, #forgot .block, #register .block
+{
+	display:block;
+	clear:both;
+}
+
+#forgot label, #register label 
+{
+	min-width:130px;
+	display:block;
+	float:left
+}
+
+#forgot #successmsg, #register #successmsg
+{
+  background-repeat:no-repeat;
+	font-weight:bold;
+	margin-top:10px;
+	min-height:25px;
+	padding-left:35px;
+	padding-top:8px;
+	background-image:url('/image/success.png');
+}
+
+#settings label 
+{
+	min-width:150px;
+	display:block;
+	float:left
+}
+
+#settings h2
+{
+  font-size:15px;
+}
+
+
+/** Slidding doors method **/
+button { 
+  border:0; 
+  cursor:pointer; 
+  padding:0 15px 0 0; 
+  text-align:center; 
+}
+button span { 
+  position:relative; 
+  display:block; 
+  white-space:nowrap; 
+  padding:0 0 0 15px; 
+}
+
+/*blue buttons*/
+button.submitBtn { 
+  background:url(/image/coolbuttonright.png) right no-repeat; 
+  font-size:1.0em; 
+}
+button.submitBtn span { 
+  height:24px; 
+  line-height:24px;
+  background:url(/image/coolbuttonleft.png) left no-repeat;
+}
+
+button { 
+  width:auto; 
+  overflow:visible; 
+}
+button span { 
+  margin-top:1px; 
+}

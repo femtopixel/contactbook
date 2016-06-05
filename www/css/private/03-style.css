@@ -1,0 +1,503 @@
+/* ======================================================== */
+/*	Created by Devit Schizoper 								*/
+/*	Created HomePages http://LoadFoo.starzonewebhost.com	*/
+/*	Created Day 01.12.2006 									*/
+/* ======================================================== */
+
+
+body {
+	margin: 0px;
+	font-family: Verdana, Arial, sans-serif;
+  font-size: .6em;
+}
+
+#allcontent
+{
+  background: url(/image/top_bg.gif);
+  background-repeat: repeat-x;
+}
+
+form {
+  display:inline;
+}
+
+p {
+	line-height: 17px;
+	margin: 11px 0 10px 0;
+	padding: 0px;
+}
+
+h2 {
+	color: #9f9f9f;
+	margin:0px;
+	padding:0px;
+	font-size: 15px;
+}
+
+ul {
+	font-size: 10px;
+	margin:0;
+	padding:0;
+	list-style-image: url(/image/bullet.gif);
+}
+
+a {
+	color: #93B300;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+blockquote{
+	background: #F7FDE3;
+	color: #606060;
+	padding: 10px;
+}
+
+
+/**** Main Container ***/
+
+
+#wrap {
+       margin-left: auto;
+       margin-right: auto;
+       width: 850px;
+}
+
+
+/**** Top ***/
+
+
+#top {
+	width: 100%;
+	height: 88px;
+	color: #fff;
+	background: #000 url(/image/top_bg.gif);
+	overflow:hidden;
+}
+
+#top h2 {
+	color: White;
+	letter-spacing: 3px;
+	font-size: 2.4em;
+	font-weight: normal;
+	position: relative;
+	margin: 0px;
+	top:33px;
+	display:block;
+	float:left;
+	background: url(/image/bg_t.gif) no-repeat;
+	padding-left: 10px;
+}
+
+#top h2 a {
+	color: white;
+	text-decoration: none;
+}
+
+#top h2 a:hover {
+        color: #93B300;
+}
+
+
+/**** Main Menu ***/
+
+
+#menu {
+	display: block;
+	float:right;
+}
+
+#menu ul {
+	margin: 0;
+	list-style: none;
+}
+
+#menu li {
+	display: block;
+	float: left;
+	white-space: nowrap;
+}
+
+#menu li a {
+	display: block;
+	padding: 55px 20px 12px 20px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+
+* html #menu a {width:1%;}
+
+#menu li a:hover {
+	background: url(/image/bg_menu.gif);
+}
+
+#menu li a.current {
+	letter-spacing: 1px;
+	color: gray;
+	background: url(/image/bg_menu.gif);
+}
+
+#menu li a.current:hover {
+	color: #fff;
+}
+
+
+/**** Content Container ***/
+
+
+#content {
+	width: 100%;
+	margin-top:30px;
+	background:#F6F9FB none repeat scroll 0%;
+  border:1px solid #E1E1E1;
+  padding:10px 10px 15px;
+}
+
+#contentAjax {
+	margin:20px 20px 20px 20px;
+	background:#F6F9FB none repeat scroll 0%;
+  border:1px solid #E1E1E1;
+  padding:10px 10px 15px;
+}
+
+#content h2 {
+	margin: 0;
+	padding: 10px 0 10px 0;
+}
+
+
+/**** Content ***/
+
+
+#left ul {
+	padding: 15px 0 15px 35px;
+	margin:0;
+}
+
+#left li {
+	margin-bottom:5px;
+}
+
+#left {
+	width: 390px;
+	float:left;
+	display: block;
+       margin-left: 20px;
+	display: inline;
+}
+
+
+/**** Sidebar ***/
+
+
+#right {
+	width: 315px; 
+	float: right;
+	display:block;
+	margin-top: 10px;
+}
+
+#right .box {
+	width: 24em;/*280px*/
+	background: #F6F9FB;
+	border: 1px solid #E1E1E1;
+	padding:10px 10px 15px 10px;
+	float: right;
+}
+
+#right .box h2 {
+	font-size: 1.1em;
+	margin: 0px 0 0px 0;
+	padding:0px 0 5px 0;
+}
+
+#right .box a {
+	margin: 10px 0 10px 0;
+	color: #93B300;
+	font-size: 10px;
+}
+
+#right .box p {
+	margin: 5px 0 10px 0;
+	line-height: 15px;
+}
+
+#right .box ul {
+	padding: 0 0 7px 20px;
+	margin:10px 0 10px 0;
+}
+
+#right .box li {
+	margin-top:5px;
+}
+
+#nav{ list-style: none; margin: 2.0em 0; width: 25em; float: right;}
+#nav li{ padding: 0; margin: 0; }
+#nav a{
+	display: block;
+	height: 2.0em;
+	padding: 0.3em 0.3em 0.3em 0.8em;
+	border-bottom: 2px; /*solid #1a1a1a*/
+	border-top: 2px; /*solid #1a1a1a*/
+	color: #93B300;
+	background-color: #F7F9FB;
+	font-weight: bold;
+	text-decoration: none;
+	}
+
+#nav a:hover{
+	color: #1a1a1a;
+	background: url(/image/bg_t.gif) no-repeat;
+	background-color: #fff;
+	font-weight: bold;
+	}	
+
+/**** Clear Div ***/
+
+
+#clear {
+	display: block;
+	clear: both;
+	width: 100%;
+	height:1px;
+	overflow:hidden;
+}
+
+
+/**** Footer ***/
+
+
+#footer {
+        margin: 40px auto 0 auto;
+	text-align: center;
+	border-top: dotted 1px gray;
+	padding: 20px 0 20px 0;
+	width: 70%;
+}
+
+#footer p {
+	margin: 0px;
+	padding: 0;
+}
+
+#adduser form span
+{
+  display:block;
+}
+
+#addsociete form span
+{
+  display:block;
+}
+
+h1 a
+{
+  text-decoration:none;
+  color:#000000;
+}
+
+.resultrecherche
+{
+	border:1px grey dashed;
+	background-color:#FFFFFF;
+	display:block;
+	height:90px;
+	margin-top:10px;
+}
+
+.resultrecherche .left, #deletenav .left
+{
+	float:left;
+}
+
+.resultrecherche .right, #deletenav .right
+{
+	float:right;
+}
+.resultrecherche .right
+{
+  text-align:right;
+  min-width:10px;
+}
+.resultrecherche .left span
+{
+	font-size:15px;
+}
+
+#pagination
+{
+	border:1px grey dashed;
+	background-color:#FFFFFF;
+	display:block;
+	margin-top:10px;
+	text-align:center;
+}
+
+#pagination a
+{
+	margin-right:10px;
+}
+.thispage
+{
+	color:#CF4040;
+}
+
+#consultation
+{
+	font-size:15px;
+}
+
+#personne, #societe, #deletenav, #societesharemanager, #personnesharemanager
+{
+	border:1px grey dashed;
+	background-color:#FFFFFF;
+	display:block;
+}
+
+#personne span, #societe span, #personne div, #societe div
+{
+	font-weight:bold;
+}
+
+#deletenav
+{
+	font-size:15px;
+	margin-top:10px;
+	height:40px;
+}
+
+.hidden {
+  display:none;
+}
+
+#toolbar
+{
+  position:absolute;
+  top:0px;
+  right:0px;
+  z-index:2;
+}
+
+/** Slidding doors method **/
+button { 
+  border:0; 
+  cursor:pointer; 
+  font-weight:bold; 
+  padding:0 20px 0 0; 
+  text-align:center; 
+}
+button span { 
+  position:relative; 
+  display:block; 
+  white-space:nowrap; 
+  padding:0 0 0 20px; 
+}
+
+/*blue buttons*/
+button.submitBtn { 
+  background:url(/image/coolbuttonright.png) right no-repeat; 
+  font-size:1.3em; 
+}
+button.submitBtn span { 
+  height:20px; 
+  line-height:20px;
+  background:url(/image/coolbuttonleft.png) left no-repeat;
+  color:#fff; 
+}
+
+button { 
+  width:auto; 
+  overflow:visible; 
+}
+button span { 
+  margin-top:1px; 
+}
+
+.right .submitBtn {
+  width:100%;
+}
+
+#sharemanager .left {
+  float:left;
+  min-width:10px;
+}
+
+#sharemanager .right {
+  float:right;
+  text-align:right;
+  min-width:10px;
+}
+
+#globboutcontacts button, #globboutcompanies button {
+  width:130px;
+}
+
+#sharemanager .blockout {
+  display:block;
+  clear:both;
+  min-height:25px;
+}
+
+#login label 
+{
+	min-width:100px;
+	display:block;
+	float:left
+}
+
+#forgot .block, #settings .block, #login .block, #register .block 
+{
+	display:block;
+	clear:both;
+}
+
+#errormsg
+{
+	background-repeat:no-repeat;
+	font-weight:bold;
+	margin-top:10px;
+	min-height:25px;
+	padding-left:30px;
+	padding-top:8px;
+	background-image:url('/image/error.png');
+}
+
+#settings label 
+{
+	min-width:150px;
+	display:block;
+	float:left
+}
+
+#forgot label, #register label 
+{
+	min-width:130px;
+	display:block;
+	float:left
+}
+
+#forgot #successmsg, #register #successmsg
+{
+  background-repeat:no-repeat;
+	font-weight:bold;
+	margin-top:10px;
+	min-height:25px;
+	padding-left:35px;
+	padding-top:8px;
+	background-image:url('/image/success.png');
+}
+
+#languageSelector
+{
+	position:absolute;
+	left:0px;
+}
+
+#loginDetails
+{
+	position:absolute;
+	right:0px;
+}

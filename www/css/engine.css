@@ -1,0 +1,118 @@
+#TB_window{color:#333;font:12px Arial,Helvetica,sans-serif}
+#TB_secondLine{color:#666;font:10px Arial,Helvetica,sans-serif}
+#TB_window a:link,#TB_window a:visited,#TB_window a:active,#TB_window a:focus{color:#666}
+#TB_window a:hover,h1 a{color:#000}
+#TB_overlay{z-index:100}
+.TB_overlayMacFFBGHack{background:url(macFFBgHack.png) repeat}
+.TB_overlayBG{background-color:#000;opacity:.75;filter:alpha(opacity=75);-moz-opacity:.75}
+#TB_window{text-align:left;border:4px solid #525252;background:#fff;color:#000;z-index:102}
+#TB_window img#TB_Image{border-bottom:1px solid #ccc;border-right:1px solid #ccc;margin:15px 0 0 15px;display:block;border-left:1px solid #666;border-top:1px solid #666}
+#TB_caption{padding:7px 30px 10px 25px;float:left;height:25px}
+#TB_closeWindow{float:right;height:25px;padding:11px 25px 10px 0}
+#TB_closeAjaxWindow{margin-bottom:1px;float:right;text-align:right;padding:7px 10px 5px 0}
+#TB_ajaxWindowTitle{margin-bottom:1px;padding:7px 0 5px 10px;float:left}
+#TB_title{background-color:#e8e8e8;height:27px}
+#TB_ajaxContent{clear:both;text-align:left;overflow:auto;line-height:1.4em;padding:2px 15px 15px}
+#TB_ajaxContent.TB_modal{padding:15px}
+#TB_ajaxContent p{padding:5px 0}
+#TB_load{height:13px;z-index:103;width:208px;margin:-6px 0 0 -104px}
+#TB_HideSelect{opacity:0;z-index:99;-moz-opacity:0;filter:alpha(opacity=0);background-color:#fff;border:none}
+#TB_iframeContent{clear:both;margin-top:1px;_margin-bottom:1px;border:none;margin-bottom:-1px}
+label.checkbox_checked{background:#fff url(/css/crir/tick.png) no-repeat}
+label.checkbox_unchecked{background:#fff url(/css/crir/cross.png) no-repeat}
+label.radio_checked{background:#fff url(/css/crir/bullet_green.png) no-repeat}
+label.radio_unchecked{background:#fff url(/css/crir/bullet_white.png) no-repeat}
+label:hover{color:#575B60}
+label.highlighted{border:1px solid #333}
+.crirHidden{position:absolute;left:-1000px}
+body{font-size:.6em;margin:0;font-family:Verdana,Arial,sans-serif}
+#allcontent{background:url(/image/top_bg.gif);background-repeat:repeat-x}
+p{margin:11px 0 10px;line-height:17px;padding:0}
+h2{color:#9f9f9f}
+ul{list-style-image:url(/image/bullet.gif);font-size:10px}
+blockquote{background:#F7FDE3;padding:10px;color:#606060}
+#wrap{width:850px;margin-right:auto;margin-left:auto}
+#top{background:#000 url(/image/top_bg.gif);height:88px;color:#fff}
+#top h2{color:White;margin:0;top:33px;font-size:2.4em;font-weight:400;padding-left:10px;position:relative;letter-spacing:3px}
+#top h2 a{color:white}
+#top h2 a:hover,a,#right .box a,#nav a{color:#93B300}
+#menu ul{margin:0;list-style:none}
+#menu li{white-space:nowrap}
+#menu li a{padding:55px 20px 12px;color:#fff}
+* html #menu a{width:1%}
+#menu li a:hover{background:url(/image/bg_menu.gif)}
+#menu li a.current{color:gray;letter-spacing:1px;background:url(/image/bg_menu.gif)}
+#menu li a.current:hover{color:#fff}
+#content{width:100%;margin-top:30px}
+#contentAjax{margin:20px}
+#content h2{margin:0;padding:10px 0}
+#left ul{margin:0;padding:15px 0 15px 35px}
+#left li{margin-bottom:5px}
+#left{width:390px;margin-left:20px}
+#right{margin-top:10px;width:315px}
+#right .box{background:#F6F9FB;padding:10px 10px 15px;border:1px solid #E1E1E1;width:24em}
+#right .box h2{padding:0 0 5px;margin:0;font-size:1.1em}
+#right .box a{font-size:10px;margin:10px 0}
+#right .box p{margin:5px 0 10px;line-height:15px}
+#right .box ul{padding:0 0 7px 20px;margin:10px 0}
+#right .box li{margin-top:5px}
+#nav{width:25em;margin:2.0em 0;list-style:none}
+#nav a{padding:.3em .3em .3em .8em;height:2.0em;border-top:2px;background-color:#F7F9FB;border-bottom:2px}
+#nav a:hover{color:#1a1a1a;background-color:#fff}
+#clear{clear:both;height:1px}
+#footer{margin:40px auto 0;padding:20px 0;width:70%;border-top:dotted 1px gray}
+#adduser form span,#addsociete form span,#menu,#menu li a,#right,#nav a,#clear,button span,button span{display:block}
+.resultrecherche{height:90px}
+.resultrecherche .left,#deletenav .left{float:left}
+.resultrecherche .right,#deletenav .right,#menu,#right,#right .box,#nav{float:right}
+.resultrecherche .right{text-align:right;min-width:10px}
+.resultrecherche .left span,h2,#consultation,#deletenav,#settings h2{font-size:15px}
+#pagination a{margin-right:10px}
+.thispage{color:#CF4040}
+#personne,#societe,#deletenav,#societesharemanager,#personnesharemanager{border:1px grey dashed;display:block;background-color:#FFF}
+#personne span,#societe span,#personne div,#societe div,#menu li a,#nav a,#nav a:hover,button{font-weight:700}
+#deletenav{height:40px;margin-top:10px}
+.hidden{display:none}
+#toolbar{z-index:2;position:absolute;top:0;right:0}
+button{padding:0 20px 0 0}
+button span{padding:0 0 0 20px}
+button.submitBtn{font-size:1.3em}
+button.submitBtn span{height:20px;color:#fff;line-height:20px}
+button span,button span{margin-top:1px}
+.right .submitBtn{width:100%}
+#sharemanager .left{float:left;min-width:10px}
+#sharemanager .right{float:right;text-align:right;min-width:10px}
+#globboutcontacts button,#globboutcompanies button{width:130px}
+#sharemanager .blockout{clear:both;display:block;min-height:25px}
+#login label,#login label{min-width:100px}
+#forgot .block,#settings .block,#login .block,#register .block,#settings .block,#login .block,#forgot .block,#register .block{clear:both;display:block}
+#settings label,#settings label{min-width:150px}
+#forgot label,#register label,#forgot label,#register label{display:block;min-width:130px;float:left}
+#forgot #successmsg,#register #successmsg,#forgot #successmsg,#register #successmsg{background-image:url('/image/success.png');padding-left:35px}
+#languageSelector{position:absolute;left:0}
+#loginDetails{position:absolute;right:0}
+button{padding:0 15px 0 0}
+button span{padding:0 0 0 15px}
+button.submitBtn{font-size:1.0em}
+button.submitBtn span{line-height:24px;height:24px}
+#errormsg,#forgot #successmsg,#register #successmsg,#errormsg,#forgot #successmsg,#register #successmsg{background-repeat:no-repeat;padding-top:8px;font-weight:700;min-height:25px;margin-top:10px}
+* html #TB_window,* html #TB_load{position:absolute;margin-top:expression(0 - parseInt(this.offsetHeight / 2)+(TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop)+'px')}
+* html #TB_overlay,* html #TB_HideSelect{height:expression(document.body.scrollHeight>document.body.offsetHeight ? document.body.scrollHeight:document.body.offsetHeight+'px');position:absolute}
+#top h2,#menu li,#left,#login label,#settings label,#login label,#settings label{display:block;float:left}
+#content,#contentAjax{background:#F6F9FB none repeat scroll 0;border:1px solid #E1E1E1;padding:10px 10px 15px}
+*,h2,ul,#nav li,#footer p{margin:0;padding:0}
+label.checkbox_checked,label.checkbox_unchecked,label.radio_checked,label.radio_unchecked{display:block;margin:10px 0;padding-left:25px}
+a:hover,#top h2 a,#menu li a,#nav a,h1 a{text-decoration:none}
+.resultrecherche,#pagination{border:1px grey dashed;display:block;background-color:#FFF;margin-top:10px}
+#errormsg,#errormsg{background-image:url('/image/error.png');padding-left:30px}
+button,button{cursor:pointer;border:0}
+button.submitBtn,button.submitBtn{background:url(/image/coolbuttonright.png) right no-repeat}
+#TB_window,#TB_load{left:50%;top:50%;position:fixed;display:none}
+#TB_overlay,#TB_HideSelect{width:100%;height:100%;top:0;left:0;position:fixed}
+#top h2,#nav a:hover{background:url(/image/bg_t.gif) no-repeat}
+#top,#clear{width:100%;overflow:hidden}
+button,button{overflow:visible;width:auto}
+button span,button span{white-space:nowrap;position:relative}
+button.submitBtn span,button.submitBtn span{background:url(/image/coolbuttonleft.png) left no-repeat}
+form,#left{display:inline}
+#footer,#pagination,button,button{text-align:center}
