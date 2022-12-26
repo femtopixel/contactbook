@@ -66,7 +66,7 @@
 <div id="clear"></div>
 </div>
 <div id="footer">
-<p>Copyright 2009 <a href='http://www.femtopixel.com' target='_blank'>FemtoPixel</a>. Valid <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="external">CSS</a> &amp; <a href="http://validator.w3.org/check?uri=referer" rel="external">XHTML</a></p>
+<p>Copyright 2009 <a href='https://jaymoulin.me' target='_blank'>Jay MOULIN</a>. Valid <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="external">CSS</a> &amp; <a href="http://validator.w3.org/check?uri=referer" rel="external">XHTML</a></p>
 </div>
 </div>
 </div>
